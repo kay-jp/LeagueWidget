@@ -1,6 +1,6 @@
 {
-  "name": "PWAtest",
-  "description": "A music player app",
+  "name": "League Widget",
+  "description": "league data widget app",
   "icons": [
     { "src": "img/icon-96.png", "sizes": "96x96" },
     { "src": "img/icon-128.png", "sizes": "128x128" },
@@ -9,9 +9,9 @@
   ],
   "widgets": [
     {
-      "name": "Test Widget",
-      "description": "widget to control the PWAmp music player",
-      "tag": "pwaTest",
+      "name": "League Widget Mini Player",
+      "description": "widget to control the league player",
+      "tag": "LeaguePWA",
       "ms_ac_template": "widgets/temp.json",
       "data": "widgets/data.json",
       "type": "application/json",
@@ -19,7 +19,7 @@
         {
           "src": "./screenshot-widget.png",
           "sizes": "600x400",
-          "label": "The PWAmp mini-player widget"
+          "label": "Screenshot of League Widget"
         }
       ],
       "icons": [
