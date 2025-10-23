@@ -1,0 +1,35 @@
+{
+  "name": "PWAtest",
+  "description": "A music player app",
+  "icons": [
+    { "src": "img/icon-96.png", "sizes": "96x96" },
+    { "src": "img/icon-128.png", "sizes": "128x128" },
+    { "src": "img/icon-256.png", "sizes": "256x256" },
+    { "src": "img/icon-512.png", "sizes": "512x512" }
+  ],
+  "widgets": [
+    {
+      "name": "Test Widget",
+      "description": "widget to control the PWAmp music player",
+      "tag": "pwaTest",
+      "ms_ac_template": "widgets/temp.json",
+      "data": "widgets/data.json",
+      "type": "application/json",
+      "screenshots": [
+        {
+          "src": "./screenshot-widget.png",
+          "sizes": "600x400",
+          "label": "The PWAmp mini-player widget"
+        }
+      ],
+      "icons": [
+        {
+          "src": "./favicon-16.png",
+          "sizes": "16x16"
+        }
+      ],
+      "auth": false,
+      "update": 86400
+    }
+  ]
+}
