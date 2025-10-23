@@ -4,7 +4,7 @@
     {
       "type": "TextBlock",
       "size": "Medium",
-      "text": "Now playing...",
+      "text": "League Widget",
       "horizontalAlignment": "Center"
     },
     {
@@ -18,12 +18,12 @@
   "actions": [
     {
       "type": "Action.Execute",
-      "title": "Previous",
+      "title": "てすと",
       "verb": "previous-song"
     },
     {
       "type": "Action.Execute",
-      "title": "Next",
+      "title": "てすと２",
       "verb": "next-song"
     }
   ],
