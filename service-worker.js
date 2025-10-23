@@ -65,10 +65,14 @@ async function renderWidget(widget) {
   // Render the widget with the template and data.
   await self.widgets.updateByTag(widget.definition.tag, {template, data});
 }
+
+function reload() {
+  
+}
 self.addEventListener('widgetclick', (event) => {
   switch (event.action) {
-    case 'previous-song':
-      // Application logic to play the previous song...
+    case 'reload':
+      reload();
       break;
     case 'next-song':
       // Application logic to play the next song...
