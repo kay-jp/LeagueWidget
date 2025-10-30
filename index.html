@@ -14,81 +14,11 @@
 
     <!-- PWA 用のテーマカラー -->
     <meta name="theme-color" content="#000000" />
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            background-color: #1a1a1a; /* 全体の背景を少し暗めの黒に */
-        }
-
-        .list-container {
-            background-color: #000; /* メインカラー: 黒 */
-            padding: 20px 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 255, 0, 0.3); /* 緑のシャドウでアクセント */
-            width: 300px;
-        }
-
-        .list-container h2 {
-            color: #00ff00; /* サブカラー: 緑 */
-            text-align: center;
-            margin-bottom: 25px;
-            border-bottom: 2px solid #00ff00; /* 緑の下線 */
-            padding-bottom: 10px;
-        }
-
-        ul {
-            list-style: none; /* デフォルトのリストスタイルをなくす */
-            padding: 0;
-            margin: 0;
-        }
-
-        li {
-            background-color: #111; /* リストアイテムの背景を少し濃い黒に */
-            margin-bottom: 10px;
-            padding: 12px 15px;
-            border-radius: 5px;
-            color: #00ff00; /* サブカラー: 緑 */
-            font-size: 1.1em;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-            cursor: pointer;
-            border: 1px solid #004400; /* 目立たない程度の緑のボーダー */
-        }
-
-        li:last-child {
-            margin-bottom: 0;
-        }
-
-        li:hover {
-            background-color: #222; /* ホバーで少し明るい黒に */
-            transform: translateY(-2px); /* 少し上に浮き上がるエフェクト */
-            box-shadow: 0 2px 5px rgba(0, 255, 0, 0.4); /* ホバー時にも緑のシャドウ */
-        }
-
-        li::before {
-            content: "◆ "; /* リストアイテムの前に緑のひし形アイコン */
-            color: #00ff00;
-            margin-right: 8px;
-        }
-    </style>
+    
 </head>
 
 <body>
     <h1>League Widget</h1>
-        <div class="list-container">
-        <h2>リスト</h2>
-        <ul>
-            <li>リストアイテム 1</li>
-            <li>リストアイテム 2</li>
-            <li>リストアイテム 3</li>
-            <li>リストアイテム 4</li>
-            <li>リストアイテム 5</li>
-        </ul>
-    </div>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('service-worker.js')
