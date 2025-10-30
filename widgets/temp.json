@@ -18,12 +18,12 @@
   "actions": [
     {
       "type": "Action.Execute",
-      "title": "てすと",
+      "title": "Previous",
       "verb": "previous-song"
     },
     {
       "type": "Action.Execute",
-      "title": "てすと２",
+      "title": "Next",
       "verb": "next-song"
     }
   ],
