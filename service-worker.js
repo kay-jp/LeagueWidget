@@ -71,7 +71,7 @@ function reload() {
 }
 self.addEventListener('widgetclick', (event) => {
   switch (event.action) {
-    case 'reload':
+    case 'previous-song':
       // Application logic to play the next song...
       break;
     case 'next-song':

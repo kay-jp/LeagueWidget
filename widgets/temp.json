@@ -19,7 +19,7 @@
     {
       "type": "Action.Execute",
       "title": "てすと",
-      "verb": "reload"
+      "verb": "previous-song"
     },
     {
       "type": "Action.Execute",
